@@ -1,6 +1,6 @@
 -- Use the database provided as an argument
 USE alx_book_store;
-
+["124 Happiness  Ave."]
 -- Insert multiple rows into the 'customers' table
 INSERT INTO customers (customer_id, customer_name, email, address)
 VALUES
