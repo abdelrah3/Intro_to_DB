@@ -4,6 +4,7 @@ USE alx_book_store;
 ["Books", "title", "price"]
 ["Customers", "customer_id ", "customer_name VARCHAR(215)", "email VARCHAR(215)", "address TEXT"]
 ["Orders", "order_id INT", "customer_id INT", "order_date DATE", "FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)"]
+["Order_Details", "book_id INT", "quantity DOUBLE", "FOREIGN KEY (order_id) REFERENCES Orders(order_id)", "FOREIGN KEY (book_id) REFERENCES Books(book_id)"]
 -- Create the authors table
 CREATE TABLE IF NOT EXISTS AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
