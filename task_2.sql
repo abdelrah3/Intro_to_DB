@@ -1,6 +1,6 @@
 -- Use the alx_book_store database
 USE alx_book_store;
-
+["Authors", "author_id ", "author_name"]
 -- Create the authors table
 CREATE TABLE IF NOT EXISTS AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
