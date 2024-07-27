@@ -2,6 +2,7 @@
 USE alx_book_store;
 ["Authors", "author_id ", "author_name"]
 ["Books", "title", "price"]
+["Customers", "customer_id ", "customer_name VARCHAR(215)", "email VARCHAR(215)", "address TEXT"]
 -- Create the authors table
 CREATE TABLE IF NOT EXISTS AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
