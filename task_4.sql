@@ -1,6 +1,6 @@
 -- Use the database provided as an argument
 USE alx_book_store;
-
+["TABLE_NAME = 'Books'"]
 -- Retrieve full description of the 'books' table from INFORMATION_SCHEMA
 SELECT 
     COLUMN_NAME AS 'Column Name',
